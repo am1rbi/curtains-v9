@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "IBM Plex Sans Hebrew", sans-serif;
+}
+
+.ibm-plex-sans-hebrew-thin { font-weight: 100; }
+.ibm-plex-sans-hebrew-extralight { font-weight: 200; }
+.ibm-plex-sans-hebrew-light { font-weight: 300; }
+.ibm-plex-sans-hebrew-regular { font-weight: 400; }
+.ibm-plex-sans-hebrew-medium { font-weight: 500; }
+.ibm-plex-sans-hebrew-semibold { font-weight: 600; }
+.ibm-plex-sans-hebrew-bold { font-weight: 700; }
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .text-gold {
+    color: #D4AF37;
+  }
+  .bg-gold {
+    background-color: #D4AF37;
+  }
+  .bg-gold-dark {
+    background-color: #B8860B;
+  }
+  .hover\:bg-gold-dark:hover {
+    background-color: #B8860B;
+  }
+  .focus\:ring-gold:focus {
+    --tw-ring-color: #D4AF37;
+  }
+  .focus\:border-gold:focus {
+    border-color: #D4AF37;
+  }
+}

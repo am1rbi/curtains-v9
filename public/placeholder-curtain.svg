@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1950" height="1300" viewBox="0 0 1950 1300">
+  <rect width="100%" height="100%" fill="#F0F0F0"/>
+  <path d="M0 0 L1950 0 L1950 1300 L0 1300 Z" fill="none" stroke="#D4AF37" stroke-width="20"/>
+  <path d="M975 100 Q 487.5 650 975 1200 M975 100 Q 1462.5 650 975 1200" fill="none" stroke="#D4AF37" stroke-width="10"/>
+  <text x="975" y="650" font-family="Arial, sans-serif" font-size="48" fill="#333" text-anchor="middle">Curtain Placeholder</text>
+</svg>
